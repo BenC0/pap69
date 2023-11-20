@@ -1,0 +1,14 @@
+.pah000_loaded .marketing_tile.product-tile,
+.pah .pah000_loaded .marketing_tile.product-tile {
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-basis: 14.375rem;
+    flex-direction: column;
+    background-color: #F4F3F9;
+
+    & img {
+        width: 100%;
+    }
+}

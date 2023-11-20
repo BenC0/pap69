@@ -20,8 +20,7 @@ const setTestClassName = (opts = {}) => {
 
 const config = {
 	entry: {
-		control: `${build_folder}control/index.js`,
-		variation_1: `${build_folder}variation_1/index.js`,
+		patch: `${build_folder}patch/index.js`,
 	},
 	node: {
 		__dirname: true,
